@@ -14,26 +14,58 @@
 </head>
 
 <body class="manrope-font">
-    <section class="banner flex max-w-[1140px] m-auto">
+    <section class="banner flex flex-col md:flex-row max-w-[1140px] m-auto">
         <div class="banner-left">
-            <h1 class="text-7xl font-extrabold">It's good <br>
+            <h1 class="text-7xl font-extrabold mx-5 md:mx-0">It's good <br>
                 tea time at The <br>
                 Tea House</h1>
-            <p class="text-[18px] font-medium text-gray-400 my-7">Tea and Botanical Solutions Supplier Give Optimum
+            <p class="text-[18px] font-medium text-gray-400 my-7 mx-1 text-center md:text-left">Tea and Botanical Solutions Supplier Give Optimum
                 Satisfaction To Your Taste Buds.</p>
             <button class="m-5 bg-gradient-to-r from-[#FF8938] to-[#FF0000] w-48 h-16 rounded-lg text-white">Explore
                 More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
         </div>
         <div class="banner-right relative">
-           <span class="relative -bottom-8 h-full"> <img src="./images/banner.png" alt=""></span>
-            <div class="rating-card flex items-center gap-1.5 bg-white shadow-2xl py-5 px-7 w-[255px] h-24 rounded-[10px] absolute bottom-0 left-8">
+            <span class="relative -bottom-8 h-full"> <img src="./images/banner.png" alt=""></span>
+            <div
+                class="rating-card flex items-center gap-1.5 bg-white shadow-2xl py-5 px-7 w-[255px] h-24 rounded-[10px] absolute -bottom-3 md:bottom-0 left-8 ">
                 <i class="fa-solid fa-star text-2xl"></i>
                 <div class="rating-card-content">
                     <p class="font-bold">5.00</p>
-                    <p>Trust Pilot Ratings</p>
+                    <p class="text-gray-400">Trust Pilot Ratings</p>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="our-product  max-w-[1140px] m-auto mt-36 gird ">
+        <h2 class="text-5xl font-extrabold text-center">Our Featured Products</h2>
+        <p class="text-gray-400 text-center max-w-[901px] m-auto mt-5 mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+            some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            <div class="cards-container grid grid-cols-1 md:grid-cols-4 gap-6 px-8 md:px-0">
+                <!-- card1 -->
+                <div class="card bg-gradient-to-t from-[rgba(244, 244, 244, 0)] to-[#F4F4F4]  rounded-[10px]">
+                    <img class="block m-auto pt-7" src="./images/tea-1.png" alt="milk tea image">
+                    <p class="text-center text-2xl font-extrabold ">Milk Tea</p>
+                    <p class="text-center text-gray-400 mt-2 mb-7 ">Creamer could be replaced <br> by fresh milk</p>
+                </div>
+                <!-- card2 -->
+                <div class="card bg-gradient-to-t from-[rgba(244, 244, 244, 0)] to-[#F4F4F4]  rounded-[10px]">
+                    <img class="block m-auto pt-7" src="./images/tea-2.png" alt="milk tea image">
+                    <p class="text-center text-2xl font-extrabold ">Black Tea</p>
+                    <p class="text-center text-gray-400 mt-2 mb-7 ">Creamer could be replaced <br> by fresh milk</p>
+                </div>
+                <!-- card3 -->
+                <div class="card bg-gradient-to-t from-[rgba(244, 244, 244, 0)] to-[#F4F4F4]  rounded-[10px]">
+                    <img class="block m-auto pt-7" src="./images/tea-3.png" alt="milk tea image">
+                    <p class="text-center text-2xl font-extrabold ">Lemon  Tea</p>
+                    <p class="text-center text-gray-400 mt-2 mb-7 ">Creamer could be replaced <br> by fresh milk</p>
+                </div>
+                <!-- card4 -->
+                <div class="card bg-gradient-to-t from-[rgba(244, 244, 244, 0)] to-[#F4F4F4]  rounded-[10px]">
+                    <img class="block m-auto pt-7" src="./images/tea-4.png" alt="milk tea image">
+                    <p class="text-center text-2xl font-extrabold ">Green Tea</p>
+                    <p class="text-center text-gray-400 mt-2 mb-7 ">Creamer could be replaced <br> by fresh milk</p>
+                </div>
+            </div>
     </section>
 </body>
 
